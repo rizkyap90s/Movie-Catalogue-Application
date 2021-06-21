@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MovieCatalogue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ConsumerFavorite.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Final.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#164A74</item>
+        <item name="colorPrimaryDark">#00315E</item>
+        <item name="colorAccent">#E73905</item>
+    </style>
+    <style name="noBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#164A74</item>
+        <item name="colorPrimaryDark">#00315E</item>
+        <item name="colorAccent">#E73905</item>
+    </style>
+    <style name="toolbarfont">
+        <item name="android:fontFamily">@font/sunday</item>
+    </style>
+
+</resources>

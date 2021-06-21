@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/menu_notification">
+
+        <SwitchPreference
+
+            android:defaultValue="false"
+            android:key="@string/key_daily"
+            android:summary="@string/daily"
+            android:title="@string/summary_daily" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_release"
+            android:summary="@string/release"
+            android:title="@string/summary_release" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/sistem">
+        <Preference
+            android:summary="@string/summary_language"
+            android:title="@string/language"
+            android:key="@string/key_language">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/about">
+        <Preference
+            android:title="@string/Contact_us"
+            android:key="@string/key_contact">
+        </Preference>
+        <Preference
+            android:title="@string/about_dev"
+            android:key="@string/about_dev">
+        </Preference>
+        <Preference
+            android:title="@string/Privacy_Policy"
+            android:key="@string/key_language">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
